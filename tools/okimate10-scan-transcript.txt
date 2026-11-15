@@ -1,0 +1,37 @@
+OKIMATE 1Ø COLOR PRINT -- INSTRUCTIONS
+OKIMATE 1Ø Color Print allows you to print pictures from your
+computer's display screen.
+Create color illustrations, posters, charts and graphs using one of
+the popular graphics programs or accessories available for the Atari
+8ØØXL. Color Print works with the following:
+GRAPHICS SOFTWARE OR ACCESSORY SAMPLE
+1 = Koala Painter/Koala Pad by Koala Technologies Desert Scene
+2 = Super Sketch from Personal Peripherals
+3 = Atari Paint from Atari Inc.
+4 = Fun With Art from Epyx
+5 = Tech-Sketch from Tech Sketch Inc.
+6 = Powerpad from Chalkboard Inc.
+7 = Micro Painter from Datasoft
+8 = Movie Maker from Reston Software
+9 = Micro Illustrator
+1Ø = User
+HOW TO PRINT A PICTURE
+Color Print will ask you to select a picture format. Choose the
+graphics program or accessory you have used to make pictures. Color
+Print works from disks created by your graphics program.
+If you do not yet own one of these programs, you may wish to print
+one of the sample pictures included on the Color Print disk.
+When you have made your selections, the disk drive will activate.
+After a moment, a directory of picture files will appear. Typically,
+the only names that will appear are printable pictures.
+To select a picture, type the letter next to the file name you choose.
+Then press RETURN to begin printing. If you want to quit without
+printing a picture, press the RETURN key. If there are no picture
+files on the disk, the directory will say so. You must press RETURN
+to exit without printing.
+Okidata cannot guarantee compatibility with the graphics packages
+above, because they are subject to change by the original
+manufacturer.
+Color Print version 2.Ø created by
+Application Techniques and City Software
+Copyright 1984 OKIDATA Div of OKI AMERICA, Inc.

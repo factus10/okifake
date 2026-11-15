@@ -1,0 +1,9 @@
+# Third-party scans and code kept locally for reference (large or not ours to publish)
+manuals/
+reference/ptouchman-okimate20-emulator/
+
+# Local tooling and build caches
+.codegraph/
+.okimate-cache/
+.DS_Store
+node_modules/

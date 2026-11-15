@@ -1,0 +1,20 @@
+{
+  "name": "okifake",
+  "version": "1.0.0",
+  "description": "Make images and text look like Okimate 10 / 20 thermal-transfer color printouts",
+  "type": "commonjs",
+  "main": "okifake.js",
+  "bin": {
+    "okifake": "cli/okifake.mjs"
+  },
+  "files": [
+    "okifake.js",
+    "okifake-font.js",
+    "cli/",
+    "integrations/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
