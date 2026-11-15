@@ -76,7 +76,7 @@ pandoc doc.md --lua-filter integrations/pandoc/okimate.lua -o doc.pdf
 - **Document-wide settings:** go in the front matter, for example `okimate: {all: true, paper: copier}`. `all: true` prints every image, and `{.no-okimate}` excludes one image.
 - **Page color:** `-M okimate-page-color=#FCF9F0` gives printouts the page color.
 - **Cache:** rendered images are cached in `.okimate-cache/` next to the Markdown file.
-- **Dot-matrix manuals:** `dotmatrix-pdf.sh` loads the filter automatically when this folder is at `~/Documents/github/okifake`; set `OKIFAKE_HOME` if it is somewhere else.
+- **Dot-matrix manuals:** [dotmatrix-pdf](https://github.com/factus10/dotmatrix-pdf) turns Markdown into a 1980s dot-matrix style PDF. Its `dotmatrix-pdf.sh` loads the filter automatically when this folder is at `~/Documents/github/okifake`; set `OKIFAKE_HOME` if it is somewhere else.
 
 ### ts-program-manual skill
 
