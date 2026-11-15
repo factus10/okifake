@@ -2,7 +2,9 @@
 
 Okifake makes any image look like a printout from an **Okidata Okimate 10 or Okimate 20**, the mid-1980s wax thermal-transfer color printers.
 
-Open `index.html` in a browser, or use the hosted copy on GitHub Pages. There is no build step and nothing to install. Drop, paste or choose an image, adjust the settings, and save the result as a PNG. Turn on **Watch it print** to see the page print band by band, with a yellow, magenta and cyan pass for each band, much as the real printer did.
+**Try it online: [factus10.github.io/okifake](https://factus10.github.io/okifake/)**
+
+You can also open `index.html` from a local copy. There is no build step and nothing to install. Drop, paste or choose an image, adjust the settings, and save the result as a PNG. Turn on **Watch it print** to see the page print band by band, with a yellow, magenta and cyan pass for each band, much as the real printer did.
 
 ## What it simulates
 
@@ -93,12 +95,9 @@ Use `{{okimate:name}}` in a manual or zine source. The build prints `images/name
 
 Without a canvas, `render` returns `{ W, H, data, ppi }` with RGBA pixels. The source can be any `{ width, height, data }` RGBA buffer. This is how the command line uses it (`require('./okifake.js')`). All options are listed in `Okifake.DEFAULTS` in [okifake.js](okifake.js).
 
-## Publishing on GitHub Pages
+## GitHub Pages
 
-The site is the repository root: `index.html`, `okifake.js` and `okifake-font.js`. `.nojekyll` is already there.
-
-1. Push the folder to a GitHub repository.
-2. Under **Settings → Pages**, choose **Deploy from a branch**, then `main` and `/ (root)`.
+The site at [factus10.github.io/okifake](https://factus10.github.io/okifake/) is served from the repository root on `main` (`index.html`, `okifake.js` and `okifake-font.js`; `.nojekyll` turns off Jekyll). Every push to `main` republishes it within a minute or so.
 
 `.gitignore` leaves out `manuals/` (36 MB of scanned manuals) and ptouchman's emulator in `reference/`, because they are third-party material. Remove those lines if you want them in the repository.
 
